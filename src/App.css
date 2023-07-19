@@ -14,3 +14,77 @@
       padding: 20px;
       text-align: center;
   }
+
+
+  .container
+  {
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 4vmax;
+    box-sizing: border-box;
+  }
+
+  .container > form
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+ input,textarea,button
+ {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+  border-radius: 5px;
+  margin: 20px 0;
+ }
+
+ input
+ {
+  font-size: medium;
+ }
+
+ button
+ {
+  border: none;
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+ }
+
+ .task
+ {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+ }
+
+ .task > div
+ {
+  width: 100%;
+ }
+
+.task span
+{
+  color: black;
+}
+
+ .task button
+ {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .task button:hover
+ {
+  background-color: blue;
+ }
